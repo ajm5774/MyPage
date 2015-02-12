@@ -1,0 +1,70 @@
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
+ * or vendor/assets/stylesheets of plugins, if any, can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any styles
+ * defined in the other CSS/SCSS files in this directory. It is generally better to create a new
+ * file per style scope.
+ *
+ *= require jquery-ui
+ *= require_tree .
+ *= require_self
+ */
+
+@import "bootstrap-sprockets"
+@import "bootstrap"
+
+
+.body-content
+	:margin-top 50px
+
+body
+	:background-image url('background.jpg')
+
+.panel-heading
+	:background-image linear-gradient(top, #3b5c9e 0%,#7db9e8 100%)
+	:color white
+	:border-bottom 1px solid grey
+	:font-family verdana, arial, helvetica, sans-serif
+	:font-size 13px
+	:line-height 18px
+
+.panel-body
+	:font-family verdana, arial, helvetica, sans-serif
+	:font-size 13px
+	:line-height 18px
+
+
+.top-divider
+	:margin-top 10px
+	:padding-top 10px
+	:border-top 1px solid lightgray
+
+.carousel-caption
+	:top 46%
+	:min-height 435px
+
+.carousel-inner
+	:top 46%
+	:min-height 435px
+	:background #3B5C9E
+
+.item
+	:top 46%
+	:height inherit
+	:background #3B5C9E
+
+.container
+	:width 1000
+
+.center
+	:text-align center
+
+.indent
+	:float left
+	:margin-left 30px
+	:position relative
